@@ -1,0 +1,8 @@
+gets(s)
+ Takes input till a new line character is not encountered
+ Not safe to use as it doesn't check array bound
+ 
+fgets(str,n,stdin)
+   stdin copies the input into str upto n (including '\0' character) 
+   Takes input till a new line character is encountered but copies characters upto given bound
+   fgets() is safe to use as it bound check
