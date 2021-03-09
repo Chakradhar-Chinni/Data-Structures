@@ -5,14 +5,13 @@ int main()
 	scanf("%d%d",&r,&c);
 	int arr[r][c];
 	int col_sum[r*c];
-	
 	//Scanning every element
 	for(i=0;i<r;i++)
 	{
-		for(j=0;j<c;j++)
-		{
-			scanf("%d",&arr[i][j]);
-		}
+	   for(j=0;j<c;j++)
+	    {
+		scanf("%d",&arr[i][j]);
+	    }
 	}
 	
 	printf("\n--Matrix--\n");
