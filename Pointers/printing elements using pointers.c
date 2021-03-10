@@ -6,11 +6,11 @@ int main()
 	
 	for(i=0;i<5;i++)
 	{
-		scanf("%d",(ptr+i));
+	  scanf("%d",(ptr+i));
 	}
 	
 	for(i=0;i<5;i++)
 	{
-		printf("%d ",*(ptr+i));
+	 printf("%d ",*(ptr+i));
 	}
 }
