@@ -3,7 +3,7 @@ int main()
 {
 	int i,n,r,c,j,t;
 	scanf("%d%d",&r,&c);
-	int arr[r][c]; //no. of rows(r) and columns(c)
+	int arr[r][c]; 
 	int k=0;
 	int temp[r*c];
 	//scanning elements 
