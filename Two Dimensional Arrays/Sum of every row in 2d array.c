@@ -1,6 +1,6 @@
 #include<stdio.h>   //printing sum of every row in a 2d matrix  
 int main()  
-{
+{ 
 	int i,j,r,c,k=0,sum=0;
 	scanf("%d%d",&r,&c);
 	int arr[r][c];
