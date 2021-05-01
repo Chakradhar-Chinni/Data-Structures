@@ -25,7 +25,7 @@ int main()
 		printf("\n");
 	}
 	
-	//Calculating sum of every row
+	//Calculating sum of every row 
 	for(i=0;i<r;i++)
 	{
 		for(j=0;j<c;j++)
