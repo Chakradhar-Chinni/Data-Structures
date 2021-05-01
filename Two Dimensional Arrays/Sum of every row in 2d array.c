@@ -44,3 +44,4 @@ int main()
 		printf("Sum of Row[%d] : %d\n",i+1,row_sum[i]);
 	}
 }
+ 
