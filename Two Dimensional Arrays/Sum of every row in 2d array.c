@@ -14,7 +14,7 @@ int main()
 		}
 	}
 	
-	
+	 
 	printf("---------Matrix---------\n\n"); //Printing the Matrix
 	for(i=0;i<r;i++)
 	{
