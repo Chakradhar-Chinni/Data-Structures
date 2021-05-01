@@ -32,7 +32,7 @@ int main()
 		{
 			sum = sum+arr[i][j];
 		}
-		row_sum[k] = sum;
+		row_sum[k] = sum; 
 		k++;
 		sum = 0;
 	}
