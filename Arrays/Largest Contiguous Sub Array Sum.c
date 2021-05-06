@@ -5,7 +5,7 @@ int main()
     int max_ending_here=0;    
       
     int arr[8] = {-2,-3,4,-1,-2,1,5,3}; 
-    
+     
     for(int i=0;i<8;i++)
     {
        //for(int j=i;j<8;j++) 
