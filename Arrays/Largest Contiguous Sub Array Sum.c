@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{
+{   
     int max_so_far=0;
     int max_ending_here=0;
     
