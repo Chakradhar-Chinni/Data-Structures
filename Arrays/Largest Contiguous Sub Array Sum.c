@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() 
 {      
-    int max_so_far=0;   
+    int max_so_far=0;    
     int max_ending_here=0;   
       
     int arr[8] = {-2,-3,4,-1,-2,1,5,3}; 
