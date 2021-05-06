@@ -8,7 +8,7 @@ int main()
     
     for(int i=0;i<8;i++)
     {
-       //for(int j=i;j<8;j++)
+       //for(int j=i;j<8;j++) 
        //{
            int temp = max_ending_here+arr[i]; 
            if(temp>0){
