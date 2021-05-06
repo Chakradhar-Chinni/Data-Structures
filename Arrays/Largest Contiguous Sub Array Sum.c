@@ -10,7 +10,7 @@ int main()
     {
        //for(int j=i;j<8;j++)
        //{
-           int temp = max_ending_here+arr[i];
+           int temp = max_ending_here+arr[i]; 
            if(temp>0){
            max_ending_here = max_ending_here+arr[i];}
            if(max_so_far<max_ending_here)
