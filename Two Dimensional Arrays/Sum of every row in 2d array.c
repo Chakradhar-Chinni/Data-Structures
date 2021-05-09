@@ -4,7 +4,7 @@ int main()
 	int i,j,r,c,k=0,sum=0; 
 	scanf("%d%d",&r,&c);
 	int arr[r][c];
-	int row_sum[r*c];
+	int row_sum[r*c]; 
 	
 	for(i=0;i<r;i++)
 	{ 
