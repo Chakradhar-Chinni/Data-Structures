@@ -2,7 +2,7 @@
 int main()
 {  
 	int i,n,temp; 
-	scanf("%d",&n);  
+	scanf("%d",&n);   
 	int arr[n];
 	int k=n;  
 	//scanning elements 
