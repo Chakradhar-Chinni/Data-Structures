@@ -4,7 +4,7 @@ class MyHash
 { 
     int BUCKET;    
     ArrayList<LinkedList<Integer>> table;      
-    MyHash(int b) 
+    MyHash(int b)  
     { 
         BUCKET = b;
         table = new ArrayList<LinkedList<Integer>>();
