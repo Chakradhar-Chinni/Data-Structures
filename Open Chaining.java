@@ -3,7 +3,7 @@ import java.io.*;
 class MyHash
 {
     int BUCKET;
-    ArrayList<LinkedList<Integer>> table;   
+    ArrayList<LinkedList<Integer>> table;    
     MyHash(int b)
     {
         BUCKET = b;
