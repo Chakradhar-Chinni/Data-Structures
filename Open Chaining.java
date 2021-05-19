@@ -1,6 +1,6 @@
 import java.util.*; 
 import java.io.*;
-class MyHash
+class MyHash 
 { 
     int BUCKET;   
     ArrayList<LinkedList<Integer>> table;      
