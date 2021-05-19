@@ -1,5 +1,5 @@
 import java.util.*; 
-import java.io.*;
+import java.io.*; 
 class MyHash 
 { 
     int BUCKET;    
