@@ -46,7 +46,7 @@ int main()
         printf("Loop is found");
         break;
       }
-		printf("%d ",ptr->data);
+		//printf("%d ",ptr->data);
 		ptr->data = -1;
 		ptr = ptr->next;
 	}	
