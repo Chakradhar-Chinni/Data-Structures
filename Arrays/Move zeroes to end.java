@@ -45,3 +45,47 @@ public class move_zeroes_to_end
 		}
 	}
 }
+//---------------
+//Efficient Approach
+//TC: Linear Time
+import java.util.Scanner;
+import java.io.*;
+public class move_zeroes_to_end 
+{
+	static void func(int[] arr,int n)
+	{
+		int temp,i,count=0;
+		for(i=0;i<n;i++)
+		{
+			if(arr[i]!=0)
+			{
+				temp = arr[i];
+				arr[i] = arr[count];
+				arr[count] = temp;
+				count++;
+			}
+		}
+	}
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int i;
+		int n = sc.nextInt();
+		int[] arr = new int[n];
+		for(i=0;i<n;i++)
+		{
+			arr[i] = sc.nextInt();
+		}
+		func(arr,n);
+		for(i=0;i<n;i++)
+		{
+			System.out.print(arr[i]+" ");
+		}
+	}
+}
+/*
+	Best Approach -> Explanation
+	Initialize count variable to zero
+	If the array element is not equal to zero, perform swap between arr[i],arr[count] and increment the value of count
+	count variable indicates the count of non-zero elements
+*/
