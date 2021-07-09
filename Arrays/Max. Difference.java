@@ -1,4 +1,4 @@
-//Naive Approach
+//Naive Approach 
 import java.util.Scanner;
 public class Main
 {
