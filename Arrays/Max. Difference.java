@@ -5,7 +5,7 @@ public class Main
     static int maxdiff(int n,int[] arr)
     {
         int i,j,temp,max_value=-9999;
-        for(i=0;i<n;i++)
+        for(i=0;i<n-1;i++)
         {
             for(j=i+1;j<n;j++)
             {
