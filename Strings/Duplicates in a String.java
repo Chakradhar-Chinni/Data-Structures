@@ -1,3 +1,4 @@
+//Approach 1  works only for small case characters
 public class Main 
 {
 	public static void main(String[] args)
@@ -20,7 +21,7 @@ public class Main
 	}
 
 	
-//Approach 2
+//Approach 2  works for any case character
 import java.util.Scanner;
 public class duplicate_in_string 
 {
