@@ -1,3 +1,4 @@
+//Codechef qn URL: https://www.codechef.com/problems/ARRPROB
 import java.util.*;
 class codechef
 {
