@@ -33,3 +33,40 @@ class codechef
         System.out.println(r);
     }
 }
+//
+//Efficient Approach 
+//Using Hashing
+import java.util.*;
+class Subzero
+{  //edit code
+	public Boolean perform(int[] arr,int n)
+	{
+		int i,pre_sum=0;        
+		HashSet<Integer> set = new HashSet<Integer>();  
+		for(i=0;i<n;i++)
+		{
+			pre_sum = pre_sum+arr[i];
+			if(set.contains(pre_sum))
+			{
+				return true;
+			}
+			if(pre_sum==0)
+            {
+                return true;
+            }
+			set.add(pre_sum);
+		}
+		return false;
+	}
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		Subzero obj = new Subzero();
+		int n = sc.nextInt();
+		int[] arr = new int[n];
+		int i;
+		for(i=0;i<n;i++) {
+			arr[i] = sc.nextInt();	}
+		System.out.println(obj.perform(arr,n));
+	}
+}
