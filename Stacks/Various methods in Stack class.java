@@ -83,3 +83,27 @@ Acutal Index method
 6
 2
 
+//empty()
+import java.util.*;
+
+class Main
+{
+    public static void main(String[] args)
+    {
+      Stack<Integer> s = new Stack<Integer>();   
+      
+      boolean r = s.empty(); // returns true as present state of stack is empty
+      System.out.println(r); 
+      
+      s.push(10);
+      s.push(70);
+      
+       r = s.empty(); // returns false of stack is not empty
+      System.out.println(r); 
+      
+    }
+}
+
+Output:
+true
+false
