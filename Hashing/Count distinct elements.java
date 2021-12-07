@@ -63,3 +63,9 @@ class Main
         System.out.println(result);
     }
 }
+/*
+Test Cases:
+{15,12,13,12,13,13,18} -> 4
+{10,10,10} -> 1
+{10,20,30} -> 3
+*/
