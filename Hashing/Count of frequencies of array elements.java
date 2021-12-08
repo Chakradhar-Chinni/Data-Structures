@@ -43,3 +43,18 @@ class Main
         }
     }
 }
+
+
+
+Test Cases
+/*
+Sample Input
+8
+10 12 10 15 10 20 12 12
+Sample Output
+10::3
+12::3
+15::1
+20::1
+
+*/
