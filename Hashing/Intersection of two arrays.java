@@ -82,3 +82,12 @@ class Main
         System.out.println(res);
     }
 }
+
+/*Test Cases
+Sample Input
+7
+4
+10 15 20 15 30 30 5
+30 5 30 80
+    Output: 2
+    */
