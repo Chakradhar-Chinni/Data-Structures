@@ -76,3 +76,14 @@ class Main
         System.out.println("SMax. Index: "+smax_index);
     }
 }
+
+/*TestCases
+Input:
+5
+13 9 23 8 19
+Output:
+Maximum element: 23
+Second Maximum: 19
+Max. Index: 2
+SMax. Index: 4
+*/
