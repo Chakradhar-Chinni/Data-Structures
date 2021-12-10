@@ -88,4 +88,18 @@ public class move_zeroes_to_end
 	Initialize count variable to zero
 	If the array element is not equal to zero, perform swap between arr[i],arr[count] and increment the value of count
 	count variable indicates the count of non-zero elements
+/*
+Test Cases
+Input
+6
+8 5 0 10 0 20
+Output:  8 5 10 20 0 0 
+Input
+5
+0 0 0 10 0
+Output: 0 0 0 0 10
+Input
+2
+10 20
+Output: 10 20
 */
