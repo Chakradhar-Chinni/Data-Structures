@@ -31,6 +31,11 @@ class Main
 }
 
 //Efficient Approach
+/*
+-> a+b=c is same as c-a=b
+For every array element, check if sum-arr[i] is present in hashset, if yes then return true
+if not, then add current array element to hashset
+*/
 import java.util.*;
 class Main
 {
