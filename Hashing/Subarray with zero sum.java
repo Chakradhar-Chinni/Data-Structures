@@ -65,3 +65,34 @@ class Subzero
 		System.out.println(obj.perform(arr,n));
 	}
 }
+/*TestCases:
+Input:
+5
+1 2 3 4 5
+Output: false
+-----------
+Input:
+5
+1 2 3 0 5
+Output: true
+---------
+Input:
+6
+1 4 13 -3 -10 5
+Output: true
+-----------
+Input:
+5
+1 4 -3 1 2
+Output: true
+-----------
+Input:
+5
+3 -1 -2 5 6
+Output: true
+-------------
+Input:
+4
+5 6 0 8
+Output: true
+*/
