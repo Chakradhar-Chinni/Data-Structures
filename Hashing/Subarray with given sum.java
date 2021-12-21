@@ -40,3 +40,8 @@ Input
 7 3
 15 2 8 10 -5 -8 6
 Output: true
+
+Input:
+4 10
+3 2 5 6
+Output: true
