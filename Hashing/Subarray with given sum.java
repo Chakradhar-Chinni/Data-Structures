@@ -10,9 +10,9 @@ class Main
             t_sum = arr[i];
             for(j=i+1;j<n;j++)
             {
-                t_sum = t_sum+arr[j];
                 if(t_sum==sum)
                     return true;
+                t_sum = t_sum+arr[j];
             }
         }
         return false;
