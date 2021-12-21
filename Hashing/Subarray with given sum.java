@@ -29,6 +29,37 @@ class Main
         System.out.println(res);
     }
 }
+//Efficient Approach
+import java.util.*;
+class Main
+{
+    public static boolean func(int n,int[] arr,int sum)
+    {
+        HashSet<Integer> set = new HashSet<Integer>();
+        int presum=0;
+        for(int i=0;i<n;i++)
+        {
+            presum = presum+arr[i];
+            if(presum==sum)
+                return true;
+            if(set.contains(presum-sum))
+                return true;
+            set.add(presum);
+        }
+        return false;
+    }
+   public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int sum = sc.nextInt();
+        int[] arr = new int[n];
+        for(int i=0;i<n;i++){
+            arr[i] = sc.nextInt();}
+        boolean res =func(n,arr,sum);
+        System.out.println(res);
+    }
+}
 
 Test Cases
 Input:
