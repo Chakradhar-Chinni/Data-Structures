@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<stdlib.h>
-struct information
+struct information 
 {
     int rollno;
     char name[20];
